@@ -1,5 +1,16 @@
 # ── Datasets & large files ──────────────────────────────────────────────────
-data/
+# Ignore data contents but keep folder structure via .gitkeep
+data/*
+!data/.gitkeep
+!data/openi/
+data/openi/*
+!data/openi/.gitkeep
+!data/openi/images/
+data/openi/images/*
+!data/openi/images/.gitkeep
+!data/openi/reports/
+data/openi/reports/*
+!data/openi/reports/.gitkeep
 *.npz
 *.npy
 
