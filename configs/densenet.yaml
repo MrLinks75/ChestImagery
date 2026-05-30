@@ -1,0 +1,13 @@
+model: densenet121
+seed: 42
+img_size: 128
+batch_size: 64
+lr: 1.0e-4
+epochs: 50
+optimizer: adamw
+weight_decay: 1.0e-4
+scheduler: cosine
+early_stopping_patience: 10
+augmentation: true
+num_classes: 14
+freeze_epochs: 5

@@ -1,0 +1,52 @@
+# ── Datasets & large files ──────────────────────────────────────────────────
+data/
+*.npz
+*.npy
+
+# ── Model weights & checkpoints ─────────────────────────────────────────────
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# ── MLflow ──────────────────────────────────────────────────────────────────
+mlflow.db
+runs/
+mlruns/
+artifacts/
+
+# ── Virtual environment ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS & editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.env
+.env.local
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Project-internal planning docs ──────────────────────────────────────────
+CLAUDE.md
+PROJECT.md
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+*.log
+dist/
+build/
+*.egg-info/
